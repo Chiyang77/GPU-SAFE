@@ -1,0 +1,12 @@
+# Whitelist policy: only the SAFE library is public for now.
+# The manuscript (paper1/), project notes, validation and figure scripts
+# are intentionally excluded and will be rolled out later.
+/*
+!/.gitignore
+!/README.md
+!/safe/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
